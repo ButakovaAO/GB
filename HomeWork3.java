@@ -4,7 +4,7 @@
  * @author Butakova A.O.
  * @version 18.10.2021
  */
- import java.util.Arrays;
+import java.util.Arrays;
  
 class HomeWork3 {
 
