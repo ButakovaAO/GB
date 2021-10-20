@@ -27,10 +27,10 @@ class TicTacToe {
     }  
 
     void game() { 
-        initTable();// инициализация таблицы
+        initTable();
         while (true) {
             printTable();
-            turnHuman();//ход человека
+            turnHuman();
             if (isWin(SIGN_X)) {
                 System.out.println("YOU WIN :)");
                 break;
@@ -39,7 +39,7 @@ class TicTacToe {
                 System.out.println("Sorry, DRAW...");
                 break;
             }
-            turnAi();// ход компьютера
+            turnAi();
             if (isWin(SIGN_O)) {
                 System.out.println("YOU LOSE :(");
                 break;
