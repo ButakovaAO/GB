@@ -47,9 +47,9 @@ class Dog extends Animal {
 }
 
 abstract class Animal implements IAnimal {
-    protected int limRun;
-    protected int limSwim;
-    protected String animalType;
+    private int limRun;
+    private int limSwim;
+    private String animalType;
 
     Animal (int limRun, int limSwim) {
         this.limRun = limRun;
