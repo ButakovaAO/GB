@@ -12,8 +12,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class HomeWork5 {
-     public static void main(String[] args) {
-
+    public static void main(String[] args) {
     try (PrintWriter writer = new PrintWriter(new File("HomeWork5.csv"))) {
 
         StringBuilder sb = new StringBuilder();
