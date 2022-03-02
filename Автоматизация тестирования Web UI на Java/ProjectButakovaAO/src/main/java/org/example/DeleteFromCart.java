@@ -45,7 +45,7 @@ public class DeleteFromCart extends AbstractPage {
 
     public void elEl5() {
         this.el5.click();
-        new WebDriverWait(getDriver(), 10000).until(ExpectedConditions.urlContains("cart"));
+        new WebDriverWait(getDriver(), 50).until(ExpectedConditions.urlContains("cart"));
     }
 
 }
