@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractTest {
 
-    private static WebDriver driver;
+    private static WebDriver webDriver;
 
     @BeforeAll
     static void init(){
@@ -22,22 +22,23 @@ public abstract class AbstractTest {
         options.addArguments("--incognito"); //открытие страницы в режиме инкогнито
         options.addArguments("start-maximized"); //открытие полноэкранного формата
         options.addArguments ("disable-popup-blocking"); //блокировка всплывающих окон
-        driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        webDriver = new ChromeDriver(options);
+        webDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 
     @BeforeEach
     void goTo(){
-        Assertions.assertDoesNotThrow( ()-> driver.navigate().to("https://www.chay.info/"),
+        Assertions.assertDoesNotThrow( ()-> webDriver.navigate().to("https://www.chay.info/"),
                 "Страница не доступна");
     }
 
     @AfterAll
     static void close(){
-        driver.quit();
+        webDriver.quit();
     }
 
-    public static WebDriver getDriver() {
-        return driver;
+    public WebDriver getWebDriver(){
+        return this.webDriver;
     }
+
 }
