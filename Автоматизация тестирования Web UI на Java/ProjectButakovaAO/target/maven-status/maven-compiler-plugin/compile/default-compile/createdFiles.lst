@@ -1,0 +1,7 @@
+org\example\AddToCart.class
+org\example\LoginPage.class
+org\example\ChayInfoMainPage.class
+org\example\ChangeTypeBox.class
+org\example\DeleteFromCart.class
+org\example\AbstractPage.class
+org\example\ChoiceElement.class
