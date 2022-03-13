@@ -1,0 +1,1 @@
+{"uuid":"0c427221-3163-4020-bf9d-a1b5844c6ad8","name":"Удаление товара из корзину","children":["64ba9d0f-c889-4d1b-a6ba-2272bb444d39"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1647206209511,"stop":1647206214461}],"afters":[],"start":1647206209511,"stop":1647206229408}

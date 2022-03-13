@@ -1,0 +1,1 @@
+{"uuid":"0bca6eb5-eae3-440e-8cb7-fda06664c38f","name":"Выбор товара","children":["c7f9323c-c5e8-4437-a296-e64e0e0f9925"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1647206230268,"stop":1647206235481}],"afters":[],"start":1647206230265,"stop":1647206246840}

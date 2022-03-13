@@ -1,0 +1,1 @@
+{"uuid":"27045994-f519-4d84-bcc7-8df310722045","name":"Страница Кофе","children":["d2c6c8ba-8ead-48f6-95e8-4f508fa532b0"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1647206288073,"stop":1647206291340}],"afters":[],"start":1647206288065,"stop":1647206297210}

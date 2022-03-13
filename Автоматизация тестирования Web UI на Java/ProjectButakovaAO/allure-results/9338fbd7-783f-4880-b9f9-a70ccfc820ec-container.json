@@ -1,0 +1,1 @@
+{"uuid":"9338fbd7-783f-4880-b9f9-a70ccfc820ec","name":"Изменение меры объема","children":["9e7ffa53-d9ce-4803-b16c-2be607d0d165"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1647206247722,"stop":1647206252702}],"afters":[],"start":1647206247722,"stop":1647206264076}

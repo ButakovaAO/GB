@@ -1,0 +1,1 @@
+{"uuid":"7ad962b8-405f-4fa2-b68c-0dc7332f6629","name":"Страница Подарки","children":["8b1808bf-2a22-4430-9e3c-0387e8e17d18"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1647206264981,"stop":1647206270006}],"afters":[],"start":1647206264966,"stop":1647206276090}
