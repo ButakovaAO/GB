@@ -27,7 +27,7 @@ public class MealPlanTest {
                         + " }\n"
                         + "}")
                 .when()
-                .post("https://api.spoonacular.com/mealplanner/geekbrains/items")
+                .post("https://api.spoonacular.com/mealplanner/geekbrains/items").prettyPeek()
                 .then()
                 .statusCode(200)
                 .extract()

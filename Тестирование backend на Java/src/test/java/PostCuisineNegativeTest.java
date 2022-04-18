@@ -57,7 +57,7 @@ public class PostCuisineNegativeTest {
                 .formParam("title", "Pizza 3 cheese")
                 .post("https://api.spoonacular.com/recipes/cuisine").prettyPeek()
                 .then()
-                .statusCode(200)
+                .statusCode(401)
                 .time(Matchers.lessThan(5L), TimeUnit.SECONDS);
     }
 }

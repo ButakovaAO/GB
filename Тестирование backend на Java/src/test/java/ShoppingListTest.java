@@ -34,8 +34,9 @@ public class ShoppingListTest {
         given()
                 .queryParam("hash", "a3da66460bfb7e62ea1c96cfa0b7a634a346ccbf")
                 .queryParam("apiKey", apiKey)
-                .delete("https://api.spoonacular.com/mealplanner/geekbrains/shopping-list/items" + id)
+                .delete("https://api.spoonacular.com/mealplanner/geekbrains/shopping-list/items/" + id)
                 .then()
+                .statusCode(200)
                 .time(Matchers.lessThan(5L), TimeUnit.SECONDS);
     }
 }
